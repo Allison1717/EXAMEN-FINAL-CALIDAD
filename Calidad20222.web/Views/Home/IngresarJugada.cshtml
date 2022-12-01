@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Ingresar Jugada";
+}
+<div class="text-center">
+    <h1 class="display-4">¡¡¡¡BIENVENIDO a Jugar POKER!!!!</h1>
+    <form action="/home/generar" method="post">
+
+        <button class="btn btn-primary">Generar Jugada</button>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-success"> Ingresar Cartas:</th>   
+            </tr>
+            <div class="row d-flex m-3 justify-content-center align-items-center">
+                <div class="col-auto">
+                    <input class="form-control me-4" name="numero" id="numero" type="text" placeholder="Ingresa número">
+                </div>
+                <div class="col-auto">
+                    <input class="form-control me-4" name="palo" id="palo"  type="text" placeholder="Ingresa palo">
+                </div>
+                <div class="col-auto">
+                    <form action="/home/agregar" method="post">
+                         <button class="btn btn-success ">Agregar Carta</button>
+                    </form>
+                </div>
+
+            </div>
+            
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Numero @item.Palo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h1>Jugada: @ViewBag.Jugada</h1>
+</div>
