@@ -37,6 +37,17 @@ public class PokerService
         var grouping = cartas.GroupBy(o => o.Palo);
         return grouping.Count() == 1;
     }
+    private bool EsCartaMayor(List<Carta> cartas)
+    {
+        cartas = cartas.OrderBy(o => o.Numero).ToList();
+        for (var i = 0; i < cartas.Count - 1; i++)
+        {
+            if (cartas.ElementAt(i+1).Numero > cartas.ElementAt(i).Numero)
+                return true;
+        }
+
+        return false;
+    }
 
     private bool EsEscalera(List<Carta> cartas)
     {

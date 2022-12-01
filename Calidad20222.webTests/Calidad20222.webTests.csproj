@@ -15,4 +15,8 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Calidad20222.web\Calidad20222.web.csproj" />
+  </ItemGroup>
+
 </Project>

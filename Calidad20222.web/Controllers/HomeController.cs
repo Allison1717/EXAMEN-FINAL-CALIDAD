@@ -25,6 +25,7 @@ public class HomeController : Controller
     {
         return View(new List<Carta>());
     }
+    
     [HttpPost]
     public IActionResult Generar()
     {
