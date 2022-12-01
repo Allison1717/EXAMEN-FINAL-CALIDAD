@@ -1,0 +1,701 @@
+{
+  "id": "ad585ae5-b70d-4960-866a-db1b9a7aa573",
+  "version": "2.0",
+  "name": "EXAMEN FINAL CALIDAD",
+  "url": "https://localhost:7023",
+  "tests": [{
+    "id": "2a5777a6-a08d-4c27-b42a-da080df41d93",
+    "name": "Agregar Carta",
+    "commands": [{
+      "id": "cb200525-b3a9-4290-8c73-b83c43616ea0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e00664a9-68f0-4524-a5a7-d41c270287ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "772x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac3224d8-1fc7-4c5d-9459-92cdb3720db1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ingresar Jugada",
+      "targets": [
+        ["linkText=Ingresar Jugada", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Ingresar Jugada')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Home/IngresarJugada')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ingresar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29107c1d-7a39-46e4-a00f-960b9d5779ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af979ce0-3179-4fca-b9cf-2ad26fc1cb1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "434899ea-27f0-414a-a507-89b414ed3adf",
+      "comment": "",
+      "command": "click",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71094c47-1406-4207-b2c6-2f182603d147",
+      "comment": "",
+      "command": "type",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Trebol"
+    }, {
+      "id": "34f89fd4-41af-4134-86de-e0e557fb94d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70d21d9d-efa2-4c49-b12a-284cfa4e8b96",
+      "comment": "",
+      "command": "click",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef49181-f635-418d-a540-0768a9374608",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6eaa359-1eaa-45b6-9654-62d177c7d782",
+      "comment": "",
+      "command": "type",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "9fdc51fa-32f6-4435-a392-605b532ead96",
+      "comment": "",
+      "command": "click",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fba4092-f7d1-4245-a70c-f2a772d64d4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bc8ae94-c0ea-41c9-b75d-b0a1c4c467c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "527b809b-b649-44ef-8512-e1157397cd0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row",
+      "targets": [
+        ["css=.row", "css:finder"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac442a64-0663-4e79-ba2d-ddf1bb128757",
+      "comment": "",
+      "command": "type",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Trebol"
+    }, {
+      "id": "44a646ed-0f2e-4400-aff7-82a8c3787489",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c02c4948-4be1-4d9c-9245-7299d5c906f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-auto:nth-child(1)",
+      "targets": [
+        ["css=.col-auto:nth-child(1)", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "727ef673-d43d-4da4-b3cb-12015f547a02",
+      "comment": "",
+      "command": "type",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "0b9f1f4f-21aa-4695-a7f4-2b2a3f440210",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row",
+      "targets": [
+        ["css=.row", "css:finder"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d679251-f359-4737-8b42-8c204fe2b4c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Espada"
+    }, {
+      "id": "ba819073-8b80-4441-830c-3f8d23e28b5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57999f59-7ee1-42bf-924d-1e564501590f",
+      "comment": "",
+      "command": "click",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b07b796-cf33-4647-9bcb-b3a421f41e25",
+      "comment": "",
+      "command": "click",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d793d17f-0025-44ed-b66d-8530fa8b555b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07b048d3-73d2-4ae3-87b4-e6e70cf4ebae",
+      "comment": "",
+      "command": "type",
+      "target": "id=numero",
+      "targets": [
+        ["id=numero", "id"],
+        ["name=numero", "name"],
+        ["css=#numero", "css:finder"],
+        ["xpath=//input[@id='numero']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "96a0d4ab-2de2-4f3d-928b-927bdadfb870",
+      "comment": "",
+      "command": "click",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da3c1346-d0ee-406c-a93e-e84286116904",
+      "comment": "",
+      "command": "click",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b47f4558-2a84-4d38-af6a-687a71449d9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebbd4266-a3ed-4df3-a5c5-d2976afe8f1e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ead54c70-42c0-4c67-b206-b02ba6ff78a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Corazones"
+    }, {
+      "id": "71bcbca1-bb13-4ee6-b0d2-1740a0b60d53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar Carta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66d6ce43-d374-4344-b0ca-98b7531968c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=palo",
+      "targets": [
+        ["id=palo", "id"],
+        ["name=palo", "name"],
+        ["css=#palo", "css:finder"],
+        ["xpath=//input[@id='palo']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Corazones"
+    }, {
+      "id": "c4d62cad-1ce3-48aa-8f57-c609cee12a32",
+      "comment": "",
+      "command": "close",
+      "target": "css=.btn",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8f099fd0-e16b-4fe4-a148-44be17c05e9d",
+    "name": "Ingresar Privacy",
+    "commands": [{
+      "id": "5b4dda33-394e-4e11-bc13-16117c16f196",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d84528f-349d-4ba4-abb1-ece268a67e97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "772x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e461a5ed-14e9-426d-a78a-818f84aeb2e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Privacy",
+      "targets": [
+        ["linkText=Privacy", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Home/Privacy')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f76522f-07a5-491c-b9f2-d37e21dfc9db",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56b76fd0-d7cf-4463-b0b7-c9c1ff1e779b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": "Privacy Policy"
+    }]
+  }, {
+    "id": "52f28e3d-387d-4033-a84d-5242ecb5f5ef",
+    "name": "Probar botones de layout",
+    "commands": [{
+      "id": "8fe427dd-5477-47e4-ab2a-54e82a4527ee",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a23a9e9e-bc68-4ca8-8fc4-9ac720cc6f24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "772x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfc4540d-f2f4-4f5d-9658-85454b59aeed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2eff81b-c54d-4228-aad4-231937eef454",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1adafb2b-cb56-407e-9299-1bd300121141",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [
+        ["css=.display-4", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome Poker Game')]", "xpath:innerText"]
+      ],
+      "value": "Welcome Poker Game"
+    }, {
+      "id": "cd9f5d7b-370d-4029-b6d6-b0dddeb6d71e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Privacy",
+      "targets": [
+        ["linkText=Privacy", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Home/Privacy')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab04213d-2bd5-442a-a1a9-649d6142ed35",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Privacy",
+      "targets": [
+        ["linkText=Privacy", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Home/Privacy')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7222bb-53dd-4c78-a88e-598b2a53886e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container:nth-child(2)",
+      "targets": [
+        ["css=.container:nth-child(2)", "css:finder"],
+        ["xpath=//body/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bd23848-ab39-47da-a1f2-6e243a53d2e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cc4bd1f-5cb4-453f-a69a-dadf30c97b62",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": "Privacy Policy"
+    }, {
+      "id": "43867617-4dfb-4354-81f0-3ffce260540e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ingresar Jugada",
+      "targets": [
+        ["linkText=Ingresar Jugada", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Ingresar Jugada')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Home/IngresarJugada')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ingresar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6127fb1a-5307-471e-a862-c3044698d35a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ingresar Jugada",
+      "targets": [
+        ["linkText=Ingresar Jugada", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Ingresar Jugada')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Home/IngresarJugada')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ingresar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "579a2961-9f90-4f9a-a7d3-aa59fb35a659",
+      "comment": "",
+      "command": "click",
+      "target": "css=.display-4",
+      "targets": [
+        ["css=.display-4", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'¡¡¡¡BIENVENIDO a Jugar POKER!!!!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8352a96f-6cdb-4ba4-933e-cedce9b6a8bb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.display-4",
+      "targets": [
+        ["css=.display-4", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'¡¡¡¡BIENVENIDO a Jugar POKER!!!!')]", "xpath:innerText"]
+      ],
+      "value": "¡¡¡¡BIENVENIDO a Jugar POKER!!!!"
+    }]
+  }, {
+    "id": "bcde7c5e-5651-4f88-8c71-3e55aa4cb59c",
+    "name": "Probar Generar Jugada",
+    "commands": [{
+      "id": "a72f1e29-c8d0-4ded-9a64-483e41435cc7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dc7f128-4d59-4899-8d30-7b86259529e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "772x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37c09191-e7f5-4758-98e3-a60f19862865",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "086e1ee4-0ca1-4b0e-b72b-7c9c42aa9318",
+      "comment": "",
+      "command": "click",
+      "target": "id=generarJugada",
+      "targets": [
+        ["id=generarJugada", "id"],
+        ["css=#generarJugada", "css:finder"],
+        ["xpath=//button[@id='generarJugada']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "beeea43a-749d-4b1d-897c-ede6a6e1e72e",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1:nth-child(4)",
+      "targets": [
+        ["css=h1:nth-child(4)", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"],
+        ["xpath=//h1[contains(.,'Jugada: CARTA MAYOR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d6abbef3-5f48-4768-82c3-02e71d0edc2b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2a5777a6-a08d-4c27-b42a-da080df41d93"]
+  }],
+  "urls": ["https://localhost:7023/"],
+  "plugins": []
+}
